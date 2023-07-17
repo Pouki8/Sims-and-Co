@@ -1,0 +1,198 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-decoration: none;
+    color:rgb(57, 104, 233);
+}
+
+h2 {
+    text-decoration: none;
+    color: rgb(10, 113, 248);
+}
+
+p {
+    color: black;
+}
+
+/* ***************************NAVBAR*************************** */
+#logo {
+    width: 6%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+#logosims {
+    width: 16%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+header nav {
+    background-color: rgb(221, 205, 219);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: left;
+    font-size: 1.4em;
+    position: relative;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header li a:hover {
+    color: rgb(44, 72, 233);
+    background-color: palevioletred;
+}
+
+header li:hover a {
+    background-color: palevioletred;
+}
+
+header li:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu {
+    background-color: palevioletred;
+    font-size: 10px;
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li {
+    display: block;
+    margin-top: -20px;
+}
+
+.sub-menu li a {
+    color: black;
+    font-size: 15px;
+    text-align: start;
+}
+
+.sub-menu li:hover a {
+    color: blue;
+}
+
+/* ************************image principale************************* */
+#bannierePouki8 {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/* *********************Section***************************** */
+section {
+    background-color: rgb(221, 205, 238);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    width: 30%;
+    border-radius: 20%;
+    padding: 50px;
+    margin-left: 8em;
+}
+.container .Intro {
+    font-size: 2em;
+    text-align: center;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+
+.container .Intro p {
+    text-align: center;
+}
+
+.container .Intro .telecharger-jeu {
+    display: inline-block;
+    background-color: rgb(106, 93, 223);
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.container .Intro a:hover {
+    background-color: rgb(46, 173, 231);
+}
+
+/* *********************codes de triche du jeu de base********************* */
+
+.codeJeuBase {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(80, 124, 219);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(187, 65, 65);
+    font-size: 30px;
+}
+
+/* ************************Triche********************** */
+#code {
+    background-color: rgb(106, 93, 223);
+    border-radius: 5px;
+    color: rgb(9, 9, 219);
+}
+
+#code:hover {
+    background-color: rgb(46, 173, 231);
+    color: aqua;
+}
+
+/* *******************Présentation du jeu********************** */
+.container #Sims {
+    width: 50em;
+    border-radius: 0%;
+}
+
+.container .Intro2 {
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+
+.container .Intro2 p {
+    font-size: 20px;
+}
+
+/* *************************construction******************** */

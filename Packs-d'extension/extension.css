@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-decoration: none;
+    color:rgb(57, 104, 233);
+}
+
+h2 {
+    text-decoration: none;
+    color: rgb(10, 113, 248);
+}
+
+p {
+    color: black;
+}
+
+/* ***************************NAVBAR*************************** */
+#logo {
+    width: 6%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+#logosims {
+    width: 16%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+header nav {
+    background-color: rgb(221, 205, 219);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: left;
+    font-size: 1.4em;
+    position: relative;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header li a:hover {
+    color: rgb(44, 72, 233);
+    background-color: palevioletred;
+}
+
+header li:hover a {
+    background-color: palevioletred;
+}
+
+header li:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu {
+    background-color: palevioletred;
+    font-size: 10px;
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li {
+    display: block;
+    margin-top: -20px;
+}
+
+.sub-menu li a {
+    color: black;
+    font-size: 15px;
+    text-align: start;
+}
+
+.sub-menu li:hover a {
+    color: blue;
+}
+
+/* ******************jacquette************************* */
+.container {
+    background-color: rgb(134, 214, 214);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container #jacquette {
+    width: 50%;
+    margin: 10em;
+    margin-left: 25%;
+}
+
+#codes2 {
+    color: rgb(163, 58, 16);
+    font-size: 50px;
+    padding-bottom: 2em;
+    padding-left: 13em;
+    text-decoration: none;
+}
+
+#codes2 :hover {
+    color: rgb(240, 64, 64);
+}
+
+#codes {
+    color: brown;
+    font-size: 50px;
+    padding-bottom: 2em;
+    padding-left: 13em;
+}
+
+/* ***********************le nouveau monde********************* */
+.container .carte h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: -3em;
+}
+
+.container .carte p {
+    text-align: center;
+    margin-left: 7em;
+    margin-right: 3em;
+    font-size: 25px;
+}
+
+.container #carte {
+    width: 40%;
+    margin-right: 6em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+}
+
+.container .carte2 h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-left: -1em;
+    margin-bottom: 1em;
+    margin-top: -2em;
+}
+
+.container .carte2 p {
+    text-align: center;
+    margin-left: 7em;
+    margin-right: 3em;
+    font-size: 20px;
+    margin-left: -1em;
+}
+.container .carte2 p strong {
+    color: rgb(7, 22, 233);
+}
+
+/* ************************image des objets du pack */
+.container h3{
+    margin-left: 12em;
+    font-size: 50px;
+    color: rgb(57, 104, 233);
+}
+
+.container #carte3 {
+    width: 40%;
+    margin-right: 2em;
+    margin-left: 8em;
+    margin-bottom: 3em;
+}
