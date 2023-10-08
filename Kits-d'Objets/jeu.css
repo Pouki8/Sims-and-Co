@@ -107,6 +107,8 @@ header li:hover .sub-menu {
 /* ******************jacquette************************* */
 .container {
   background-color: rgb(134, 214, 214);
+  text-align: center;
+  padding: auto;
 }
 
 .container {
@@ -115,9 +117,9 @@ header li:hover .sub-menu {
 }
 
 .container #jacquette {
-  width: 50%;
+  width: 20%;
   margin: 10em;
-  margin-left: 25%;
+  margin-left: 40%;
 }
 
 #codes2 {
